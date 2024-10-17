@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <div class="array-inputs">
+                    <p>Size of the array:</p>
+                    <input id="a_size" type="range" min=20 max=150 step=1 value=80>
+                    <p>Speed of the algorithm:</p>
+                    <input id="a_speed" type="range" min=1 max=5 step=1 value=4>
+
+                </div>
+                <button id="a_generate">Generate New Array!</button>
+            </div>
+
+            <div class="header_right">
+                <p class="nav-heading">Sorting visualizer</p>
+
+                <div class="algos">
+                    <button>Bubble</button>
+                    <button>Selection</button>
+                    <button>Insertion</button>
+                    <button>Merge</button>
+                    <button>Quick</button>
+                    <button style="margin-right: 0px;">Heap</button>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <section>
+
+        <div>
+            <div id="Info_Cont1">
+
+                <h3>TIME COMPLEXITY</h3>
+
+                <div class="Complexity_Containers" id="Time_Complexity_Types_Container">
+
+                    <div class="Pair_Definitions">
+                        <p class="Sub_Heading">Worst case:</p>
+                        <p id="Time_Worst"></p>
+                    </div>
+
+                    <div class="Pair_Definitions">
+                        <p class="Sub_Heading">Average case:</p>
+                        <p id="Time_Average"></p>
+                    </div>
+
+                    <div class="Pair_Definitions">
+                        <p class="Sub_Heading">Best case:</p>
+                        <p id="Time_Best"></p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="Info_Cont2">
+
+                <h3>SPACE COMPLEXITY</h3>
+
+                <div class="Complexity_Containers" id="Space_Complexity_Types_Container">
+
+                    <div class="Pair_Definitions">
+                        <p class="Sub_Heading">Worst case:</p>
+                        <p id="Space_Worst"></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div id="array_container">
+
+        </div>
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="./scripts/main.js"></script>
+
+    <script src="./scripts/visualizations.js"></script>
+
+    <script src="./scripts/bubble_sort.js"></script>
+    <script src="./scripts/selection_sort.js"></script>
+    <script src="./scripts/insertion_sort.js"></script>
+    <script src="./scripts/merge_sort.js"></script>
+    <script src="./scripts/quick_sort.js"></script>
+    <script src="./scripts/heap_sort.js"></script>
+</body>
+
+
+</html>
+
+<!-- Jogender Singh – Full Stack Developer
+
+Hello! I'm Jogender, a dedicated and experienced Full Stack Developer with a passion for creating high-performance,
+user-friendly web applications. With a strong background in the MERN (MongoDB, Express.js, React.js, Node.js) stack and
+a focus on performance optimization, I thrive on solving complex problems and delivering top-notch solutions.
+
+What I Do Best:
+
+- Full Stack Development: I specialize in building robust and scalable web applications from the ground up using the
+MERN stack. My expertise ensures seamless integration between front-end and back-end components, resulting in efficient
+and high-performing applications.
+- Front-End Excellence: I create responsive, intuitive, and visually appealing user interfaces using HTML, CSS,
+JavaScript, and React. My focus on user-centric design ensures that applications are not only functional but also
+engaging and easy to use.
+- Next.js Expertise: I have extensive experience in converting React applications to Next.js, leveraging its
+benefits such as server-side rendering (SSR) and static site generation (SSG) to improve performance and SEO.
+- Performance Optimization: Identifying and resolving performance bottlenecks is one of my key strengths. I use
+advanced techniques to optimize web applications, ensuring fast load times and a smooth user experience.
+- Testing and QA: I implement comprehensive testing strategies, including unit tests, integration tests, and
+automated testing, to maintain high code quality and reliability. My commitment to thorough testing ensures that
+applications are robust and bug-free.
+
+Strengths and Approach:
+
+- Problem-Solving: My analytical skills and attention to detail enable me to diagnose and fix complex issues quickly
+and effectively.
+- Collaboration: I believe in the power of teamwork and open communication. I work closely with designers,
+developers, and stakeholders to ensure that all aspects of a project align with the overall vision and goals.
+- Adaptability: I am always eager to learn new technologies and stay updated with the latest industry trends. My
+ability to quickly adapt to new tools and frameworks allows me to deliver innovative solutions.
+- Efficiency and Best Practices: Writing clean, maintainable code is a priority for me. I follow industry best
+practices to enhance code quality and ensure that applications are easy to maintain and scale.
+
+About Me:
+
+I am passionate about technology and constantly strive to improve my skills and knowledge. Whether it's diving into a
+new project, solving challenging problems, or optimizing existing applications, I bring enthusiasm and dedication to
+everything I do. In my free time, I enjoy exploring new technologies, contributing to open-source projects, and staying
+active in the developer community.
+
+I look forward to connecting with like-minded professionals and collaborating on exciting projects. Let's create
+something amazing together!
+
+
+---
+
+Feel free to personalize this bio further to reflect your unique experiences and personality. -->
+<!-- 
+I specialize in creating high-performance, custom websites tailored to your unique needs. With expertise in the MERN
+stack and Next.js, I offer comprehensive full-stack development services.
+
+
+
+Services Offered:
+
+Custom Website Development - I will build a fully customized website from scratch using the MERN stack. Whether it's an
+e-commerce platform, a corporate website, or a personal blog, I ensure a tailored solution that meets your specific
+requirements.
+Performance Optimization - I will optimize your web application for speed and scalability. This involves code
+optimization, improving load times, and ensuring a seamless user experience across all devices.
+Responsive Front-End Development - I will create a responsive, user-friendly front-end using React and TailwindCSS. My
+focus on intuitive design ensures that your website is both functional and visually appealing.
+Robust Back-End Solutions - I provide back-end development using Node.js and Express.js. This includes setting up
+databases with MongoDB, creating APIs, and ensuring scalable server-side functionality.
+
+
+Let's collaborate to bring your vision to life and create an exceptional web application that meets your needs -->
